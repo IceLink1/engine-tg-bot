@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const express = require('express');
 const cors = require('cors');
 
-const token = '6530762006:AAHFJLSOPMi-R7jdBhcqsxNElwclva9pB1E';
+const token = '7480825308:AAEDL6PsrRWhgIKJV0Rug-dpzv_fR1pCxqs';
 const webAppUrl = 'https://icelink-tg.vercel.app/';
 
 const bot = new TelegramBot(token, {polling: true});
